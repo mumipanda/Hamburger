@@ -39,24 +39,12 @@
               @include m.tab{
                 padding-top: 10px;
                 padding-left: 1.2rem;
-                      p{
-        color: #FFFFFF;
-        font-size: 16px;
-        font-weight: 700;
-        padding-left: 1.7em;
-          @include m.tab{
-            padding-top: 10px;
-          }
-          @include m.pc{
-            padding: 10px 0 0 19px;
-          }
-      }
               }
               @include m.pc{
                 padding: 10px 0 0 19px;
-              }
+               }
           }
-        }
+      }
   }
     .p-index__title{
         font-size: 36px;

@@ -389,20 +389,10 @@ header .c-search .c-search__input {
   }
 }
 
-.c-arrow__left {
+.c-arrow {
   width: 0.8rem;
   height: 0.8rem;
   border: 1px solid;
-  border-color: transparent transparent #707070 #707070;
-  transform: rotate(45deg);
-  margin-top: 5px;
-}
-
-.c-arrow__right {
-  width: 0.8rem;
-  height: 0.8rem;
-  border: 1px solid;
-  border-color: #707070 #707070 transparent transparent;
   transform: rotate(45deg);
   margin-top: 5px;
 }
@@ -410,14 +400,6 @@ header .c-search .c-search__input {
 .c-arrow__item {
   display: flex;
   position: relative;
-}
-
-.c-arrow__LeftItem {
-  left: 20px;
-}
-
-.c-arrow__RightItem {
-  right: 20px;
 }
 
 @media (min-width: 730px) {
@@ -1053,5 +1035,21 @@ header .c-search .c-search__input {
 
 .p-page__MainImg {
   background-image: url(../img/black-steel-lamp-post-1070945.png);
+}
+
+.p-arrow__left {
+  border-color: transparent transparent #707070 #707070;
+}
+
+.p-arrow__right {
+  border-color: #707070 #707070 transparent transparent;
+}
+
+.p-arrow__LeftItem {
+  left: 20px;
+}
+
+.p-arrow__RightItem {
+  right: 20px;
 }
 /*# sourceMappingURL=style.css.map */

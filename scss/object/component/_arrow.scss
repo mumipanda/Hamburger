@@ -22,34 +22,16 @@
         }
     }
 }
-
-.c-arrow__left{
+.c-arrow{
   width: 0.8rem;
   height: 0.8rem;
   border: 1px solid;
-  border-color:  transparent transparent #707070 #707070;
-  transform: rotate(45deg);
-  margin-top: 5px;
-}
-
-.c-arrow__right{
-  width: 0.8rem;
-  height: 0.8rem;
-  border: 1px solid;
-  border-color: #707070 #707070 transparent transparent;
   transform: rotate(45deg);
   margin-top: 5px;
 }
 .c-arrow__item{
   display: flex;
     position: relative;
-}
-
-.c-arrow__LeftItem{
-  left: 20px;
-}
-.c-arrow__RightItem{
-  right: 20px;
 }
 .c-arrow__coment{
     @include m.tab{
