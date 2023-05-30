@@ -493,6 +493,11 @@ header .c-search .c-search__input {
     padding-bottom: 149px;
   }
 }
+@media (min-width: 1250px) {
+  .c-bold {
+    padding-bottom: 274px;
+  }
+}
 
 .p-main__img {
   background-image: url(../img/mainvisual-sp.jpg);
@@ -893,9 +898,6 @@ header .c-search .c-search__input {
     height: auto;
   }
 }
-.p-single__MainImg.--page {
-  background-image: url(../img/page-title_shop@2x.jpg);
-}
 
 .p-single__img {
   width: 40%;
@@ -1047,5 +1049,9 @@ header .c-search .c-search__input {
 .p-page__current {
   background-color: #3C2B1C;
   color: #FFFFFF;
+}
+
+.p-page__MainImg {
+  background-image: url(../img/black-steel-lamp-post-1070945.png);
 }
 /*# sourceMappingURL=style.css.map */
